@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Machine Learning Astronauta</title><link href="https://c3rssei.github.io/blog/" rel="alternate"></link><link href="https://c3rssei.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://c3rssei.github.io/blog/</id><updated>2020-06-12T20:00:00+00:00</updated><entry><title>Arboles de Decisiones</title><link href="https://c3rssei.github.io/blog/arboles-de-decisiones.html" rel="alternate"></link><published>2020-06-12T20:00:00+00:00</published><updated>2020-06-12T20:00:00+00:00</updated><author><name>me</name></author><id>tag:c3rssei.github.io,2020-06-12:/blog/arboles-de-decisiones.html</id><summary type="html">&lt;p&gt;Arboles de decisiones ID3&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Machine Learning Astronauta</title><link href="https://c3rssei.github.io/Blog/" rel="alternate"></link><link href="https://c3rssei.github.io/Blog/feeds/all.atom.xml" rel="self"></link><id>https://c3rssei.github.io/Blog/</id><updated>2020-06-12T20:00:00+00:00</updated><entry><title>Arboles de Decisiones</title><link href="https://c3rssei.github.io/Blog/arboles-de-decisiones.html" rel="alternate"></link><published>2020-06-12T20:00:00+00:00</published><updated>2020-06-12T20:00:00+00:00</updated><author><name>me</name></author><id>tag:c3rssei.github.io,2020-06-12:/Blog/arboles-de-decisiones.html</id><summary type="html">&lt;p&gt;Arboles de decisiones ID3&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -11172,4 +11172,119 @@ gain(Play Golf outlook=Sunny,Windy) = 0.97 - 0.33 &lt;br&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="python"></category><category term="Arboles"></category></entry></feed>
+</content><category term="python"></category><category term="Arboles"></category></entry><entry><title>Descubrir tu data (Conceptos)</title><link href="https://c3rssei.github.io/Blog/descubrir-tu-data-conceptos.html" rel="alternate"></link><published>2019-10-30T00:00:00+00:00</published><updated>2019-10-30T00:00:00+00:00</updated><author><name>Maria Jose</name></author><id>tag:c3rssei.github.io,2019-10-30:/Blog/descubrir-tu-data-conceptos.html</id><summary type="html">&lt;h1&gt;&lt;a href="#header-1"&gt;&lt;/a&gt; Descripcion&lt;/h1&gt;
+&lt;p&gt;Los datos estan construidos por data objects. un data object representa una entidad, en una base de datos medica, los objetos pueden ser pacientes, tambien se conocen como muestras, ejemplos, instancias o objetos. Por ende una fila de una base de datos corresponde a un data object.&lt;/p&gt;
+&lt;p&gt;Referencias:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://relopezbriega.github.io/blog/2016/09/18/visualizaciones-de-datos-con-python/"&gt;Visualizaciones …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;&lt;a href="#header-1"&gt;&lt;/a&gt; Descripcion&lt;/h1&gt;
+&lt;p&gt;Los datos estan construidos por data objects. un data object representa una entidad, en una base de datos medica, los objetos pueden ser pacientes, tambien se conocen como muestras, ejemplos, instancias o objetos. Por ende una fila de una base de datos corresponde a un data object.&lt;/p&gt;
+&lt;p&gt;Referencias:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://relopezbriega.github.io/blog/2016/09/18/visualizaciones-de-datos-con-python/"&gt;Visualizaciones de datos con Python&lt;/a&gt;.
+https://www.ingeniovirtual.com/tipos-de-graficos-y-diagramas-para-la-visualizacion-de-datos/
+https://infogram.com/es/pagina/elige-el-grafico-correcto-visualizacion-datos
+https://bookdown.org/aquintela/EBE/variables-continuas.html
+https://blog.adrianistan.eu/estadistica-python-pandas-numpy-scipy-parte-i&lt;/p&gt;
+&lt;h2&gt;&lt;a href="#header-2"&gt;&lt;/a&gt; Atributos&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/variables.jpg?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://matemovil.com/wp-content/uploads/2018/08/Tipos-de-variables-estad%C3%ADsticas2.jpg"&gt;Fuente de imagen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Un atributo es un campo de dato, que representa una caracteristica de una muestra, por ejemplo teniendo como muestra un cliente un posible atributo seria el nombre, telefono y asi...&lt;/p&gt;
+&lt;h3&gt;&lt;a href="#header-3"&gt;&lt;/a&gt; Atributos Nominales&lt;/h3&gt;
+&lt;p&gt;Nominal significa &lt;strong&gt;relativo a nombres&lt;/strong&gt;, los valores de un atributo nominal son simbolos o nombres de cosas, cada valor representa algun tipo de categoria, por ejemplo el color de pelo, estado civil..&lt;/p&gt;
+&lt;p&gt;Los atributos nominales tambien pueden ser representados con numeros, por ejemplo el id de un respectivo cliente&lt;/p&gt;
+&lt;h3&gt;&lt;a href="#header-3"&gt;&lt;/a&gt; Atributos Ordinales&lt;/h3&gt;
+&lt;p&gt;Un atributo ordinal corresponde a un atributo con un posible sentido de orden o ranking, por ejemplo la talla de ropa que va de xs,s,m,l,xl ....&lt;/p&gt;
+&lt;h3&gt;&lt;a href="#header-3"&gt;&lt;/a&gt; Atributos Continuos&lt;/h3&gt;
+&lt;p&gt;Aquellos atributos que son continuos son aquellos que se pueden medir, como por ejemplo la temperatura, la humedad...&lt;/p&gt;
+&lt;p&gt;La distribucion que siguen los atributos continuos pueden ser uniforme, normal, exponencial&lt;/p&gt;
+&lt;h3&gt;&lt;a href="#header-3"&gt;&lt;/a&gt; Atributos Discretos&lt;/h3&gt;
+&lt;p&gt;Los atributos discretos son aquellos que se pueden contar teniendo en cuenta un numero finito de cantidades, por ejemplo los años, cantidad de hijos...&lt;/p&gt;
+&lt;h2&gt;&lt;a href="#header-2"&gt;&lt;/a&gt; Medición de la tendencia central&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/mediadastendenciacentral.png?raw=true"&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nataliaacevedo.com/estadisticasuper-basicaen-data-science/"&gt;Fuente de imagen&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;a href="#header-3"&gt;&lt;/a&gt; Promedio&lt;/h3&gt;
+&lt;p&gt;la medida mas comun y efectiva para el centro de un conjunto de datos es el promedio.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/promedio.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;Lo cual corresponde a la sumatoria de los elementos dividos en la cantidad de elementos.&lt;/p&gt;
+&lt;p&gt;El promedio si bien es bastante util, es muy sensible a valores extremos, incluso una pequeña cantidad de datos extremos pueden corromper el promedio. Las cifras de un conjunto de datos que son extremadamente altas o extremadamente bajas en comparación con el resto de las cifras se llaman valores atípicos. Debido a la forma de hacer los cálculos, los valores atípicos altos tienden a subir o bajar la media&lt;/p&gt;
+&lt;p&gt;Para esto se puede calcular &lt;strong&gt;La media Truncada&lt;/strong&gt; lo cual se refiere a remover los valores extremos, por ejemplo podemos quitar del el 2% del top y del bottom de la data.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;&lt;a href="#header-3"&gt;&lt;/a&gt; Mediana&lt;/h3&gt;
+&lt;p&gt;Para valores asimetricos la mejor medida del centro de los datos es la &lt;strong&gt;Mediana&lt;/strong&gt; 
+La mediana corresponde a el valor medio de una lista de valores ordenados, dejando la misma cantidad de valores a un lado que al otro, la mediana entonces corresponde al valor que separa la parte mas alta de un grafico de la parte mas baja.&lt;/p&gt;
+&lt;p&gt;Lo mas importante para el calculo de la mediana es que los datos este ordenados de manera ascendente o descendente. &lt;/p&gt;
+&lt;p&gt;Si el conjunto de datos contiene un número impar de cifras, elige la que esté exactamente en el centro. Ésa es la mediana.&lt;/p&gt;
+&lt;p&gt;Si el conjunto de datos contiene un número par de cifras, coge las dos del centro y calcula la media para obtener la mediana.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;median&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;&lt;a href="#header-3"&gt;&lt;/a&gt; Moda&lt;/h3&gt;
+&lt;p&gt;La moda es el valor que mas se repite dentro del conjunto de datos. a diferencia de la media no se ve afectada por valores atipicos al igual que la mediana.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;scipy.stats&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;stats&lt;/span&gt;
+
+&lt;span class="n"&gt;stats&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="#header-2"&gt;&lt;/a&gt; Desviacion&lt;/h2&gt;
+&lt;p&gt;La desviacion es una medicion que indica que tan dispersos son los datos, o que tan alejados estan de la media,&lt;/p&gt;
+&lt;p&gt;"La desviación estándar puede ser difícil de interpretar como número aislado. Básicamente, una desviación estándar pequeña significa que la mayoría de los valores del conjunto de datos están próximos a la media de ese conjunto, y una desviación estándar grande significa que la mayoría de los valores del conjunto de datos están más alejados de la media". (Estadisticas para dummies)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;scipy.stats&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;stats&lt;/span&gt;
+
+&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;&lt;a href="#header-3"&gt;&lt;/a&gt; Representacion grafica&lt;/h3&gt;
+&lt;p&gt;La representacion grafica de las variables variara segun lo que se quiera observar:
+1. Comparacion: el objetivo es comparar atributos, puede ser un grafico de barras o puntos.
+2. Relaciones: Comprender la relacion entre dos o mas atributos. Para determinar si existe un patron entre dos variables numericas.
+3. Composicion : Comprender como se compone una variable, diagrama de torta o e barras
+4. Distribucion: Esta categoria permite observar como se distribuyen los datos. Suele utilizarse en la exploracion de los datos, el tipo de grafico dependera a que tipo de variable corresponda el atributo, ya sea cuantitativo o cualitativo.&lt;/p&gt;
+&lt;p&gt;Los atributos categoricos pueden ser representados por un grafico de sectores o Torta, los cuales son para observar la composicion del atributo, lo ideal es que sean pocas categoricas para que sea mas claro.&lt;/p&gt;
+&lt;p&gt;Tambien se debe considerar el tipo de variable al escoger el grafico.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="#header-4"&gt;&lt;/a&gt; Relaciones&lt;/h4&gt;
+&lt;p&gt;Segun la ayuda de eleccion de graficos, las relaciones son mediante graficos de dispersion o de burbujas.&lt;/p&gt;
+&lt;p&gt;entre las dos variables continuas del conjunto&lt;/p&gt;
+&lt;p&gt;Ejemplo :
+Precio vs Puntos.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="#header-4"&gt;&lt;/a&gt; Distribucion&lt;/h4&gt;
+&lt;p&gt;Los gráficos de distribución/histogramas se usan para conocer la frecuencia de los como valores de una variable y responden a preguntas del estilo:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Número de clientes qué tengo por grupo de edad? ¿Cuántos días tardan nuestros pagos?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Si la representación es de una única variable y son pocos los datos que hay se utiliza gráficos de barras (Bar histogram). Por ejemplo: Número de habitantes por Comunidad Autónoma.&lt;/p&gt;
+&lt;p&gt;Si la representación es de una única variable y hay muchos datos se utilizan gráfico lineales (Line histogram).&lt;/p&gt;
+&lt;p&gt;Si se quiere representar dos variables hay varias opciones como utilizar gráfico de Scatter plot o de barras con distinto color o varios gráficos.
+Extraido de --&amp;gt; &lt;a href="https://about.sofia2.com/2017/09/04/analitica-de-datos-con-python-y-sofia2-14-graficos-de-distribucion/"&gt;analitica-de-datos-con-python-y-sofia2-14-graficos-de-distribucion&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;h4&gt;&lt;a href="#header-4"&gt;&lt;/a&gt; Comparacion&lt;/h4&gt;
+&lt;p&gt;A traves del tiempo o entre categorias.&lt;/p&gt;
+&lt;p&gt;En este tipo de graficos se utiliza principalmente el grafico de barras, &lt;strong&gt;es necesario que al menos uno de los ejes sea numerico&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;a href="#header-4"&gt;&lt;/a&gt; Histogramas&lt;/h4&gt;
+&lt;p&gt;si la variable es numerica entonces es llamado histograma, la variable x esta dento de rangos, lo usual es que los rangos sean iguales, dentro de cada rango se despliega la barra con la cantidad de observaciones en ese rango.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;figsize&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="c1"&gt;# Tamaño de la figura&lt;/span&gt;
+&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Precio&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Precio&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hist&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;idem sns.distplot()&lt;/p&gt;
+&lt;h4&gt;&lt;a href="#header-4"&gt;&lt;/a&gt; Boxplot&lt;/h4&gt;
+&lt;p&gt;los graficos de tipo boxplot permiten &lt;strong&gt;Visualizar una variable numerica&lt;/strong&gt;, utila valores &lt;strong&gt;Cuartiles&lt;/strong&gt;,&lt;strong&gt;Extremos&lt;/strong&gt;,&lt;strong&gt;valores raros o outiers&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;a href="#header-4"&gt;&lt;/a&gt; Pivot Table&lt;/h4&gt;
+&lt;p&gt;Similar a las tablas temporales de sql, permite seleccionar ciertos atributos del conjunto de datos, agrupa en base a un indice mediante el parametro &lt;strong&gt;index&lt;/strong&gt;, a su vez pueden mostrar estimadores estadisticos ya sea promedio o un conjunto de estos.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;pd.pivot_table(index=["Atributo","Atributo2","Atributo n"])&lt;/li&gt;
+&lt;li&gt;pd.pivot_table(index,values="Atributo",aggfunc=["mean",np.median])&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;a su vez la tabla generada permite hacerle un query&lt;/p&gt;
+&lt;p&gt;tab.query("Variedad ==['Agiorgitiko']")&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/vino-grafico.1.18.png?raw=true"&gt;
+&lt;img alt="" src="https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/vino-grafico.1.19.png?raw=true"&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;a href="#header-4"&gt;&lt;/a&gt; Catplot&lt;/h4&gt;
+&lt;p&gt;Catplot es un tipo de grafico de dispersion categorica.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/vino-grafico.1.22.png?raw=true"&gt;&lt;/p&gt;</content></entry></feed>
