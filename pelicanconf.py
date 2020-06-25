@@ -32,8 +32,9 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 5
 THEME = "pelican-themes/mg"
 BOOTSTRAP_THEME = 'flatly'
+TYPOGRIFY = True
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-STATIC_PATHS = ['images']
+STATIC_PATHS = ["theme/images",'images']
 PLUGIN_PATHS = ['/home/mariajose/Blog2/pelican-plugins']
 PLUGINS = [
     'i18n_subsites',
@@ -43,7 +44,9 @@ PLUGINS = [
     'liquid_tags.notebook',
     'liquid_tags.include_code',
     'render_math',
-    'pelican-ipynb.markup']
+    'pelican-ipynb.markup',
+"tipue_search",
+]
 I18N_TEMPLATES_LANG = 'en'
 IPYNB_USE_METACELL = True
 
