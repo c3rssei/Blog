@@ -18,9 +18,6 @@ https://blog.adrianistan.eu/estadistica-python-pandas-numpy-scipy-parte-i
 
 ## [](#header-2) Atributos
 
-![](https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/variables.jpg?raw=true)
-
-[Fuente de imagen](https://matemovil.com/wp-content/uploads/2018/08/Tipos-de-variables-estad%C3%ADsticas2.jpg).
 
 
 
@@ -52,17 +49,14 @@ Los atributos discretos son aquellos que se pueden contar teniendo en cuenta un 
 
 ## [](#header-2) Medición de la tendencia central
 
-[Medidas de tendencia central Grafico]:{filename}/images/medidastendenciacentral.png
-[Medidas de tendencia central Grafico]
 
-[Fuente de imagen](https://nataliaacevedo.com/estadisticasuper-basicaen-data-science/).
 
 
 ### [](#header-3) Promedio
 
 la medida mas comun y efectiva para el centro de un conjunto de datos es el promedio.
 
-![](https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/promedio.png?raw=true)
+
 
 Lo cual corresponde a la sumatoria de los elementos dividos en la cantidad de elementos.
 
@@ -191,11 +185,8 @@ a su vez la tabla generada permite hacerle un query
 
 tab.query("Variedad ==['Agiorgitiko']")
 
-![](https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/vino-grafico.1.18.png?raw=true)
-![](https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/vino-grafico.1.19.png?raw=true)
 
 #### [](#header-4) Catplot
 
 Catplot es un tipo de grafico de dispersion categorica.
 
-![](https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/vino-grafico.1.22.png?raw=true)

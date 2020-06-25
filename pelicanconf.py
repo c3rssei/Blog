@@ -36,7 +36,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('twitter', 'https://twitter.com/luca_chr'),
     ('google-plus-square', 'https://plus.google.com/117284397605208270870'),
     ('github', 'https://github.com/lucachr'),
-    ('envelope', 'mailto:luca92web@gmail.com'),)
+    ('envelope', 'mailto:mariajoselaylay@gmail.com'),)
 
 DEFAULT_PAGINATION = 5
 THEME = "pelican-themes/mg"
@@ -48,8 +48,7 @@ STATIC_PATHS = ["theme/images",'images']
 PLUGIN_PATHS = ['/home/mariajose/Blog2/pelican-plugins']
 PLUGINS = [
     'i18n_subsites',
-    'series',
-    'tag_cloud',
+    'sitemap',
     'liquid_tags.youtube',
     'liquid_tags.notebook',
     'liquid_tags.include_code',
@@ -57,12 +56,15 @@ PLUGINS = [
     'pelican-ipynb.markup',
 "tipue_search",
 ]
+
+FOOTER = 'Copyright © 2019 the Computable AI authors. All rights reserved.'
 I18N_TEMPLATES_LANG = 'en'
 IPYNB_USE_METACELL = True
-
+IPYNB_SKIP_CSS = True
 MARKUP = ('md', 'ipynb')
 
 IGNORE_FILES = [".ipynb_checkpoints"]  
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = False
 DISPLAY_PAGES_ON_MENU=True
+DELETE_OUTPUT_DIRECTORY = True
