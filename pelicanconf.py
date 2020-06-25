@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Maria Jose'
 SITENAME = 'Machine Learning Astronauta'
-SITEURL = 'https://c3rssei.github.io/Blog'
+SITEURL = 'c3rssei/c3rssei.github.io'
 
 PATH = '/home/mariajose/Blog2/content'
 
