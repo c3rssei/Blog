@@ -8,8 +8,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Machine Learning Astronauta</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<link rel="shortcut icon" href="./" type="">
+<meta name="description" content="Bitacora personal sobre data science y machine learning">
+<link rel="shortcut icon" href="https://c3rssei.github.io/Blog/favicon.ico" type="image/vnd.microsoft.icon">
 <meta name="author" content="Maria Jose">
 <meta name="copyright" content="Maria Jose">
 <meta name="twitter:card" content="summary" />
@@ -17,11 +17,18 @@
 <meta property="og:site_name" content="Machine Learning Astronauta" />
 <meta property="og:title" content="Machine Learning Astronauta" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="." />
-<meta name="twitter:url" content="." />
+<meta property="og:url" content="https://c3rssei.github.io/Blog" />
+<meta name="twitter:url" content="https://c3rssei.github.io/Blog" />
 <meta itemprop="name" content="Machine Learning Astronauta" />
-<meta itemprop="url" content="."/>
-<link href="./None" type="application/atom+xml" rel="alternate" title="Machine Learning Astronauta ATOM Feed"/>
+<meta itemprop="url" content="https://c3rssei.github.io/Blog"/>
+<meta property="og:description" content="Bitacora personal sobre data science y machine learning" />
+<meta name="twitter:description" content="Bitacora personal sobre data science y machine learning" />
+<meta itemprop="description" content="Bitacora personal sobre data science y machine learning" />
+<meta property="og:image" content="https://c3rssei.github.io/Blog/static/img/og_logo.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:image" content="https://c3rssei.github.io/Blog/static/img/og_logo.jpg" />
+<meta itemprop="image" content="https://c3rssei.github.io/Blog/static/img/og_logo.jpg" />
+<link href="https://c3rssei.github.io/Blog/None" type="application/atom+xml" rel="alternate" title="Machine Learning Astronauta ATOM Feed"/>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.15.0/css/uikit.min.css">
@@ -42,10 +49,10 @@
     <div class="uk-container uk-container-center">
         <div class="uk-grid" data-uk-grid-margin>
 
-            <a class="mg-brand uk-navbar-brand uk-hidden-small" href=".">Machine Learning Astronauta</a>
-            <div class="mg-tagline uk-navbar-content uk-hidden-small"></div>
+            <a class="mg-brand uk-navbar-brand uk-hidden-small" href="https://c3rssei.github.io/Blog">Machine Learning Astronauta</a>
+            <div class="mg-tagline uk-navbar-content uk-hidden-small">Un viaje por la galaxia del data science</div>
             <a class="uk-navbar-toggle uk-visible-small" href="#mg-offcanvas" data-uk-offcanvas></a>
-            <a class="mg-brand uk-navbar-brand uk-navbar-center uk-visible-small" href=".">Machine Learning Astronauta</a>
+            <a class="mg-brand uk-navbar-brand uk-navbar-center uk-visible-small" href="https://c3rssei.github.io/Blog">Machine Learning Astronauta</a>
 
         </div>
     </div>
@@ -61,8 +68,8 @@
 
 
             <article class="uk-article" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
-                <a href="./arboles-de-decisiones.html" class="uk-article-title uk-link-muted" itemprop="name">Arboles de&nbsp;Decisiones</a>
-                <p class="uk-article-meta"><time datetime="2020-06-12" itemprop="datePublished">junio 12, 2020</time> • <a href="./category/posts.html">posts</a></p>
+                <a href="https://c3rssei.github.io/Blog/arboles-de-decisiones.html" class="uk-article-title uk-link-muted" itemprop="name">Arboles de Decisiones</a>
+                <p class="uk-article-meta"><time datetime="2020-06-12" itemprop="datePublished">junio 12, 2020</time> • <a href="https://c3rssei.github.io/Blog/category/posts.html">posts</a></p>
 </p>
                 <p class="uk-article-lead" itemprop="description">Arboles de decisiones ID3</p>
                 <section itemprop="articleBody"><style type="text/css">/*!
@@ -70,15 +77,15 @@
 * IPython notebook
 *
 */
-/* <span class="caps">CSS</span> font colors for translated <span class="caps">ANSI</span> escape sequences */
+/* CSS font colors for translated ANSI escape sequences */
 /* The color values are a mix of
    http://www.xcolors.net/dl/baskerville-ivorylight and
    http://www.xcolors.net/dl/euphrasia */
 .ansi-black-fg {
-  color: #<span class="caps">3E424D</span>;
+  color: #3E424D;
 }
 .ansi-black-bg {
-  background-color: #<span class="caps">3E424D</span>;
+  background-color: #3E424D;
 }
 .ansi-black-intense-fg {
   color: #282C36;
@@ -87,16 +94,16 @@
   background-color: #282C36;
 }
 .ansi-red-fg {
-  color: #<span class="caps">E75C58</span>;
+  color: #E75C58;
 }
 .ansi-red-bg {
-  background-color: #<span class="caps">E75C58</span>;
+  background-color: #E75C58;
 }
 .ansi-red-intense-fg {
-  color: #<span class="caps">B22B31</span>;
+  color: #B22B31;
 }
 .ansi-red-intense-bg {
-  background-color: #<span class="caps">B22B31</span>;
+  background-color: #B22B31;
 }
 .ansi-green-fg {
   color: #00A250;
@@ -111,34 +118,34 @@
   background-color: #007427;
 }
 .ansi-yellow-fg {
-  color: #<span class="caps">DDB62B</span>;
+  color: #DDB62B;
 }
 .ansi-yellow-bg {
-  background-color: #<span class="caps">DDB62B</span>;
+  background-color: #DDB62B;
 }
 .ansi-yellow-intense-fg {
-  color: #<span class="caps">B27D12</span>;
+  color: #B27D12;
 }
 .ansi-yellow-intense-bg {
-  background-color: #<span class="caps">B27D12</span>;
+  background-color: #B27D12;
 }
 .ansi-blue-fg {
-  color: #<span class="caps">208FFB</span>;
+  color: #208FFB;
 }
 .ansi-blue-bg {
-  background-color: #<span class="caps">208FFB</span>;
+  background-color: #208FFB;
 }
 .ansi-blue-intense-fg {
-  color: #<span class="caps">0065CA</span>;
+  color: #0065CA;
 }
 .ansi-blue-intense-bg {
-  background-color: #<span class="caps">0065CA</span>;
+  background-color: #0065CA;
 }
 .ansi-magenta-fg {
-  color: #<span class="caps">D160C4</span>;
+  color: #D160C4;
 }
 .ansi-magenta-bg {
-  background-color: #<span class="caps">D160C4</span>;
+  background-color: #D160C4;
 }
 .ansi-magenta-intense-fg {
   color: #A03196;
@@ -147,31 +154,31 @@
   background-color: #A03196;
 }
 .ansi-cyan-fg {
-  color: #<span class="caps">60C6C8</span>;
+  color: #60C6C8;
 }
 .ansi-cyan-bg {
-  background-color: #<span class="caps">60C6C8</span>;
+  background-color: #60C6C8;
 }
 .ansi-cyan-intense-fg {
-  color: #<span class="caps">258F8F</span>;
+  color: #258F8F;
 }
 .ansi-cyan-intense-bg {
-  background-color: #<span class="caps">258F8F</span>;
+  background-color: #258F8F;
 }
 .ansi-white-fg {
-  color: #<span class="caps">C5C1B4</span>;
+  color: #C5C1B4;
 }
 .ansi-white-bg {
-  background-color: #<span class="caps">C5C1B4</span>;
+  background-color: #C5C1B4;
 }
 .ansi-white-intense-fg {
-  color: #<span class="caps">A1A6B2</span>;
+  color: #A1A6B2;
 }
 .ansi-white-intense-bg {
-  background-color: #<span class="caps">A1A6B2</span>;
+  background-color: #A1A6B2;
 }
 .ansi-default-inverse-fg {
-  color: #<span class="caps">FFFFFF</span>;
+  color: #FFFFFF;
 }
 .ansi-default-inverse-bg {
   background-color: #000000;
@@ -280,12 +287,12 @@ div.cell:before {
   background: transparent;
 }
 div.cell.jupyter-soft-selected {
-  border-left-color: #<span class="caps">E3F2FD</span>;
+  border-left-color: #E3F2FD;
   border-left-width: 1px;
   padding-left: 5px;
-  border-right-color: #<span class="caps">E3F2FD</span>;
+  border-right-color: #E3F2FD;
   border-right-width: 1px;
-  background: #<span class="caps">E3F2FD</span>;
+  background: #E3F2FD;
 }
 @media print {
   div.cell.jupyter-soft-selected {
@@ -305,7 +312,7 @@ div.cell.selected.jupyter-soft-selected:before {
   width: 5px;
   height: calc(100% +  2px);
   content: '';
-  background: #<span class="caps">42A5F5</span>;
+  background: #42A5F5;
 }
 @media print {
   div.cell.selected,
@@ -314,7 +321,7 @@ div.cell.selected.jupyter-soft-selected:before {
   }
 }
 .edit_mode div.cell.selected {
-  border-color: #<span class="caps">66BB6A</span>;
+  border-color: #66BB6A;
 }
 .edit_mode div.cell.selected:before {
   position: absolute;
@@ -324,7 +331,7 @@ div.cell.selected.jupyter-soft-selected:before {
   width: 5px;
   height: calc(100% +  2px);
   content: '';
-  background: #<span class="caps">66BB6A</span>;
+  background: #66BB6A;
 }
 @media print {
   .edit_mode div.cell.selected {
@@ -477,7 +484,7 @@ div.input {
 }
 /* input_area and input_prompt must match in top border and margin for alignment */
 div.input_prompt {
-  color: #<span class="caps">303F9F</span>;
+  color: #303F9F;
   border-top: 1px solid transparent;
 }
 div.input_area > div.highlight {
@@ -518,7 +525,7 @@ div.input_area > div.highlight > pre {
   overflow-x: auto;
 }
 .CodeMirror-lines {
-  /* In <span class="caps">CM2</span>, this used to be 0.4em, but in <span class="caps">CM3</span> it went to 4px. We need the em value because */
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
   /* we have set a different line-height and want this to scale with that. */
   /* Note that this should set vertical padding only, since CodeMirror assumes
        that horizontal padding will be set on CodeMirror pre */
@@ -532,7 +539,7 @@ div.input_area > div.highlight > pre {
   border-top-left-radius: 2px;
 }
 .CodeMirror pre {
-  /* In <span class="caps">CM3</span> this went to 4px from 0 in <span class="caps">CM2</span>. This sets horizontal padding only,
+  /* In CM3 this went to 4px from 0 in CM2. This sets horizontal padding only,
     use .CodeMirror-lines for vertical */
   padding: 0 0.4em;
   border: 0;
@@ -570,7 +577,7 @@ Adapted from GitHub theme
   color: #333333;
 }
 .highlight-string {
-  color: #<span class="caps">BA2121</span>;
+  color: #BA2121;
 }
 .highlight-comment {
   color: #408080;
@@ -593,11 +600,11 @@ Adapted from GitHub theme
   color: #f00;
 }
 .highlight-operator {
-  color: #<span class="caps">AA22FF</span>;
+  color: #AA22FF;
   font-weight: bold;
 }
 .highlight-meta {
-  color: #<span class="caps">AA22FF</span>;
+  color: #AA22FF;
 }
 /* previously not defined, copying from default codemirror */
 .highlight-def {
@@ -645,7 +652,7 @@ Adapted from GitHub theme
   color: #000;
 }
 .cm-s-ipython span.cm-operator {
-  color: #<span class="caps">AA22FF</span>;
+  color: #AA22FF;
   font-weight: bold;
 }
 .cm-s-ipython span.cm-variable-2 {
@@ -659,13 +666,13 @@ Adapted from GitHub theme
   font-style: italic;
 }
 .cm-s-ipython span.cm-string {
-  color: #<span class="caps">BA2121</span>;
+  color: #BA2121;
 }
 .cm-s-ipython span.cm-string-2 {
   color: #f50;
 }
 .cm-s-ipython span.cm-meta {
-  color: #<span class="caps">AA22FF</span>;
+  color: #AA22FF;
 }
 .cm-s-ipython span.cm-qualifier {
   color: #555;
@@ -720,9 +727,9 @@ div.output_wrapper {
 }
 /* class for the output area when it should be height-limited */
 div.output_scroll {
-  /* ideally, this would be max-height, but <span class="caps">FF</span> barfs all over that */
+  /* ideally, this would be max-height, but FF barfs all over that */
   height: 24em;
-  /* <span class="caps">FF</span> needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
   width: 100%;
   overflow: auto;
   border-radius: 2px;
@@ -756,7 +763,7 @@ div.out_prompt_overlay {
   border-radius: 2px;
 }
 div.out_prompt_overlay:hover {
-  /* use inner shadow to get border that is computed the same on WebKit/<span class="caps">FF</span> */
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
   -webkit-box-shadow: inset 0 0 1px #000;
   box-shadow: inset 0 0 1px #000;
   background: rgba(240, 240, 240, 0.5);
@@ -1111,25 +1118,25 @@ h6:hover .anchor-link {
 <style type="text/css">.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
-.highlight .err { border: 1px solid #<span class="caps">FF0000</span> } /* Error */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
 .highlight .k { color: #008000; font-weight: bold } /* Keyword */
 .highlight .o { color: #666666 } /* Operator */
 .highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
 .highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #<span class="caps">BC7A00</span> } /* Comment.Preproc */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
 .highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
 .highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
 .highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
 .highlight .gd { color: #A00000 } /* Generic.Deleted */
 .highlight .ge { font-style: italic } /* Generic.Emph */
-.highlight .gr { color: #<span class="caps">FF0000</span> } /* Generic.Error */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
 .highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .highlight .gi { color: #00A000 } /* Generic.Inserted */
 .highlight .go { color: #888888 } /* Generic.Output */
 .highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
 .highlight .gs { font-weight: bold } /* Generic.Strong */
 .highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
-.highlight .gt { color: #<span class="caps">0044DD</span> } /* Generic.Traceback */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
 .highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
 .highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
 .highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
@@ -1137,41 +1144,41 @@ h6:hover .anchor-link {
 .highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
 .highlight .kt { color: #B00040 } /* Keyword.Type */
 .highlight .m { color: #666666 } /* Literal.Number */
-.highlight .s { color: #<span class="caps">BA2121</span> } /* Literal.String */
+.highlight .s { color: #BA2121 } /* Literal.String */
 .highlight .na { color: #7D9029 } /* Name.Attribute */
 .highlight .nb { color: #008000 } /* Name.Builtin */
-.highlight .nc { color: #<span class="caps">0000FF</span>; font-weight: bold } /* Name.Class */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
 .highlight .no { color: #880000 } /* Name.Constant */
-.highlight .nd { color: #<span class="caps">AA22FF</span> } /* Name.Decorator */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
 .highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
-.highlight .ne { color: #<span class="caps">D2413A</span>; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #<span class="caps">0000FF</span> } /* Name.Function */
-.highlight .nl { color: #<span class="caps">A0A000</span> } /* Name.Label */
-.highlight .nn { color: #<span class="caps">0000FF</span>; font-weight: bold } /* Name.Namespace */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
 .highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
 .highlight .nv { color: #19177C } /* Name.Variable */
-.highlight .ow { color: #<span class="caps">AA22FF</span>; font-weight: bold } /* Operator.Word */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */
 .highlight .mb { color: #666666 } /* Literal.Number.Bin */
 .highlight .mf { color: #666666 } /* Literal.Number.Float */
 .highlight .mh { color: #666666 } /* Literal.Number.Hex */
 .highlight .mi { color: #666666 } /* Literal.Number.Integer */
 .highlight .mo { color: #666666 } /* Literal.Number.Oct */
-.highlight .sa { color: #<span class="caps">BA2121</span> } /* Literal.String.Affix */
-.highlight .sb { color: #<span class="caps">BA2121</span> } /* Literal.String.Backtick */
-.highlight .sc { color: #<span class="caps">BA2121</span> } /* Literal.String.Char */
-.highlight .dl { color: #<span class="caps">BA2121</span> } /* Literal.String.Delimiter */
-.highlight .sd { color: #<span class="caps">BA2121</span>; font-style: italic } /* Literal.String.Doc */
-.highlight .s2 { color: #<span class="caps">BA2121</span> } /* Literal.String.Double */
-.highlight .se { color: #<span class="caps">BB6622</span>; font-weight: bold } /* Literal.String.Escape */
-.highlight .sh { color: #<span class="caps">BA2121</span> } /* Literal.String.Heredoc */
-.highlight .si { color: #<span class="caps">BB6688</span>; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
 .highlight .sx { color: #008000 } /* Literal.String.Other */
-.highlight .sr { color: #<span class="caps">BB6688</span> } /* Literal.String.Regex */
-.highlight .s1 { color: #<span class="caps">BA2121</span> } /* Literal.String.Single */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
 .highlight .ss { color: #19177C } /* Literal.String.Symbol */
 .highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
-.highlight .fm { color: #<span class="caps">0000FF</span> } /* Name.Function.Magic */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
 .highlight .vc { color: #19177C } /* Name.Variable.Class */
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
@@ -1179,9 +1186,9 @@ h6:hover .anchor-link {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1>Descripcion</h1><p>Data Exploration: Es sobre descubrir que es lo que nuestros datos significan estadisticamente y aplicar tecnicas de visualizacion, este paso ser realiza para obtener aspectos importantes del&nbsp;conjunto.</p>
-<p>Univariado: Se enfoca en el analisis de los atributos uno a&nbsp;uno.</p>
-<p>Bivariado: Analisa dos atributos en&nbsp;conjunto</p>
+<h1>Descripcion</h1><p>Data Exploration: Es sobre descubrir que es lo que nuestros datos significan estadisticamente y aplicar tecnicas de visualizacion, este paso ser realiza para obtener aspectos importantes del conjunto.</p>
+<p>Univariado: Se enfoca en el analisis de los atributos uno a uno.</p>
+<p>Bivariado: Analisa dos atributos en conjunto</p>
 <p>Si quieres ir directamente a la teoria del arbol de decisiones Go to <a href=#bookmark>Aqui!</a></p>
 
 </div>
@@ -1570,9 +1577,9 @@ memory usage: 590.0+ bytes
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2>Analisis&nbsp;Univariado</h2><p>Parte del analisis univariado incluye realizar tablas de frecuencia para observar que tan recurrentes son las&nbsp;categorias.</p>
-<p>Como son atributos categoricos lo unico que podemos hacer es generar graficos pie o bar y tablas de&nbsp;frecuencia.</p>
-<p>Para realizar la tabla, creo un nuevo dataframe llamado outlook, mediante el metodo group by que agrupa los datos creando un nuevo indice en este caso sera el atributo outlook, mediante agg creamos una nueva columna que almacena el conteo de los&nbsp;atributos.</p>
+<h2>Analisis Univariado</h2><p>Parte del analisis univariado incluye realizar tablas de frecuencia para observar que tan recurrentes son las categorias.</p>
+<p>Como son atributos categoricos lo unico que podemos hacer es generar graficos pie o bar y tablas de frecuencia.</p>
+<p>Para realizar la tabla, creo un nuevo dataframe llamado outlook, mediante el metodo group by que agrupa los datos creando un nuevo indice en este caso sera el atributo outlook, mediante agg creamos una nueva columna que almacena el conteo de los atributos.</p>
 
 </div>
 </div>
@@ -6196,18 +6203,18 @@ Q 18.3125 60.0625 18.3125 54.390625
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><h2>Analisis&nbsp;Bivariado</h2>
-Consiste en el analisis simultaneo de dos variables, explora el concepto de relacion entre las variables <strong>(predictor vs target)</strong>, Existen tres tipos de analisis&nbsp;Bivariado</p>
+<p><h2>Analisis Bivariado</h2>
+Consiste en el analisis simultaneo de dos variables, explora el concepto de relacion entre las variables <strong>(predictor vs target)</strong>, Existen tres tipos de analisis Bivariado</p>
 <ol>
-<li>Numerico <span class="amp">&amp;</span>&nbsp;Numerico</li>
-<li>Categorico <span class="amp">&amp;</span>&nbsp;Categorico</li>
-<li>Numerico <span class="amp">&amp;</span>&nbsp;Categorico</li>
+<li>Numerico &amp; Numerico</li>
+<li>Categorico &amp; Categorico</li>
+<li>Numerico &amp; Categorico</li>
 </ol>
-<p>En el caso de mi dataset es <strong>categorico vs categorico</strong>, lo que esta compuesto por graficos de barras y el test de chi&nbsp;cuadrado.</p>
-<p>Para este tipo de analisis chi cuadrado se generan dos&nbsp;hipotesis:</p>
+<p>En el caso de mi dataset es <strong>categorico vs categorico</strong>, lo que esta compuesto por graficos de barras y el test de chi cuadrado.</p>
+<p>Para este tipo de analisis chi cuadrado se generan dos hipotesis:</p>
 <ul>
-<li>hipotesis nula  : jugar o no jugar *No* depende del outlook/ wind / humidity/&nbsp;temp</li>
-<li>hipotesis alternativa  : jugar o no jugar depende del outlook/ wind / humidity/&nbsp;temp</li>
+<li>hipotesis nula  : jugar o no jugar *No* depende del outlook/ wind / humidity/ temp</li>
+<li>hipotesis alternativa  : jugar o no jugar depende del outlook/ wind / humidity/ temp</li>
 </ul>
 </div>
 </div>
@@ -10385,18 +10392,18 @@ z
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2>Test de chi2 para determinar la asociacion entre los&nbsp;atributos(Categoria)</h2><p>Manualmente chicuadrado se calcula con tres&nbsp;pasos:</p>
+<h2>Test de chi2 para determinar la asociacion entre los atributos(Categoria)</h2><p>Manualmente chicuadrado se calcula con tres pasos:</p>
 <ol>
-<li>Definir las hipotesis &#8212;&gt;&nbsp;listo</li>
-<li>Construir Tabla de&nbsp;Contingencia</li>
-<li>Calcular valor de chi&nbsp;cuadrado</li>
+<li>Definir las hipotesis --&gt; listo</li>
+<li>Construir Tabla de Contingencia</li>
+<li>Calcular valor de chi cuadrado</li>
 </ol>
-<p><strong>Tabla de&nbsp;Contingencia</strong></p>
-<p>La tabla de contingencia se construye con la siguiente&nbsp;formula</p>
-<p>$E = n *&nbsp;P$</p>
-<p>n: Cantidad de elementos en el&nbsp;subconjunto</p>
-<p>P:&nbsp;Probabilidad</p>
-<p>la tabla de contingencia se construye en base a la <strong>tabla de observados</strong> de la siguiente&nbsp;manera:</p>
+<p><strong>Tabla de Contingencia</strong></p>
+<p>La tabla de contingencia se construye con la siguiente formula</p>
+<p>$E = n * P$</p>
+<p>n: Cantidad de elementos en el subconjunto</p>
+<p>P: Probabilidad</p>
+<p>la tabla de contingencia se construye en base a la <strong>tabla de observados</strong> de la siguiente manera:</p>
 
 </div>
 </div>
@@ -10443,7 +10450,7 @@ All         5    9   14
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>La tabla de contigencia se construye de la siguiente&nbsp;manera:</strong></p>
+<p><strong>La tabla de contigencia se construye de la siguiente manera:</strong></p>
 <table>
     <caption>Tabla de contigencia</caption>
     <thead>
@@ -10477,22 +10484,22 @@ All         5    9   14
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3>Calcular Chi&nbsp;cuadrado</h3><p>$\sum{(E-O)**2/E}$</p>
+<h3>Calcular Chi cuadrado</h3><p>$\sum{(E-O)**2/E}$</p>
 <ul>
-<li>overcast|no = (0- E1)** 2/E1 = (0-1.42)** 2/1.42 =&nbsp;2.86</li>
-<li>overcast|yes = (4 - 2.57)**2/2.57=&nbsp;5.25</li>
-<li>rainy|no =(2-1.78)**2/1.78 =&nbsp;0.086</li>
-<li>rainy|yes=(3-3.12)**2/3.12 =&nbsp;0.044</li>
+<li>overcast|no = (0- E1)** 2/E1 = (0-1.42)** 2/1.42 = 2.86</li>
+<li>overcast|yes = (4 - 2.57)**2/2.57= 5.25</li>
+<li>rainy|no =(2-1.78)**2/1.78 = 0.086</li>
+<li>rainy|yes=(3-3.12)**2/3.12 = 0.044</li>
 <li>sunny|no=(3-1.78)**2/1.78=2.64</li>
 <li>sunny|yes=(2-3.12)**2/3.12=3.91</li>
-</ul><p>$\sum{(E-O)**2/E}$ =&nbsp;14.79</p>
-<p>Teniendo en consideracion un alpha de 0.05&nbsp;;</p>
+</ul><p>$\sum{(E-O)**2/E}$ = 14.79</p>
+<p>Teniendo en consideracion un alpha de 0.05 ;</p>
 <p>$df = (nºfilas-1)(nºcolumnas-1)$<br></p>
-<p>df=3-1 * 2-1 =&nbsp;2</p>
-<p>busco el valor en la tabla de chi cuadrado <a href="https://web.ma.utexas.edu/users/davis/375/popecol/tables/ chisq.html">Link&nbsp;Tabla</a></p>
+<p>df=3-1 * 2-1 = 2</p>
+<p>busco el valor en la tabla de chi cuadrado <a href="https://web.ma.utexas.edu/users/davis/375/popecol/tables/ chisq.html">Link Tabla</a></p>
 <p>chi=5.99</p>
-<p>como el corte de la region es en el punto 5.99 el valor 14.79 cae fuera de la region de aceptacion de h0 entonces aceptamos la hiptesis alternativa que indica que existe relacion entre el target y&nbsp;outlook.</p>
-<p>Scipy proporciona un metodo que realiza esto y es de la siguiente&nbsp;manera</p>
+<p>como el corte de la region es en el punto 5.99 el valor 14.79 cae fuera de la region de aceptacion de h0 entonces aceptamos la hiptesis alternativa que indica que existe relacion entre el target y outlook.</p>
+<p>Scipy proporciona un metodo que realiza esto y es de la siguiente manera</p>
 
 </div>
 </div>
@@ -10674,10 +10681,10 @@ valor p o punto de corte: 0.687287949348002
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Resumen</strong></p>
 <ul>
-<li>Outlook vs Play Golf Se acepta la Hipotesis&nbsp;Alternativa</li>
-<li>Temp vs Play Golf Se acepta la Hipotesis&nbsp;nula</li>
-<li>Humidity vs Play Golf Se acepta la Hipotesis&nbsp;alternativa</li>
-<li>Windy vs Play Gol Se acepta la Hipotesis&nbsp;nulaf</li>
+<li>Outlook vs Play Golf Se acepta la Hipotesis Alternativa</li>
+<li>Temp vs Play Golf Se acepta la Hipotesis nula</li>
+<li>Humidity vs Play Golf Se acepta la Hipotesis alternativa</li>
+<li>Windy vs Play Gol Se acepta la Hipotesis nulaf</li>
 </ul>
 </div>
 </div>
@@ -10686,16 +10693,16 @@ valor p o punto de corte: 0.687287949348002
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a name="bookmark"></a></p>
-<h2>Predecir el&nbsp;futuro</h2><p>Esta parte lo que hace es predicir el futuro mediante el modelamiento, como el target es categorico entonces nos enfrentamos a un problema de clasificacion si el target hubiese sido numerico entonces seria&nbsp;regression</p>
-<h3>Arbol de&nbsp;decision</h3><p>Los arboles de decision son modelos con estructura de arbol, el resultado final es un arbol con nodos de decision y nodos&nbsp;hoja.</p>
-<p>Existen varios algoritmos que permiten la construccion de un arbol de decisiones yo ocupare <span class="caps">ID3</span> que emplea dos principales formulas matematicas <strong>Entropia</strong> y <strong>information gain</strong>.</p>
-<p>La entropia nos permite calcular la homogeneidad de la muestra, varia de o - 1, mientras mas cercano sea a 1 mas variado sera nuestro conjunto viceversa si es mas cercano a 0 sera mas&nbsp;homogeneo.</p>
+<h2>Predecir el futuro</h2><p>Esta parte lo que hace es predicir el futuro mediante el modelamiento, como el target es categorico entonces nos enfrentamos a un problema de clasificacion si el target hubiese sido numerico entonces seria regression</p>
+<h3>Arbol de decision</h3><p>Los arboles de decision son modelos con estructura de arbol, el resultado final es un arbol con nodos de decision y nodos hoja.</p>
+<p>Existen varios algoritmos que permiten la construccion de un arbol de decisiones yo ocupare ID3 que emplea dos principales formulas matematicas <strong>Entropia</strong> y <strong>information gain</strong>.</p>
+<p>La entropia nos permite calcular la homogeneidad de la muestra, varia de o - 1, mientras mas cercano sea a 1 mas variado sera nuestro conjunto viceversa si es mas cercano a 0 sera mas homogeneo.</p>
 <ol>
-<li><p>Entropia del&nbsp;target.</p>
-<p>E(y) = $\sum{(-P(Ci)* (log(P(Ci))/log&nbsp;2)}$</p>
+<li><p>Entropia del target.</p>
+<p>E(y) = $\sum{(-P(Ci)* (log(P(Ci))/log 2)}$</p>
 </li>
-<li><p>Entropia de los&nbsp;predictores.</p>
-<p>E(Y,x) = $\sum{(P(Ci)*&nbsp;E(Ci)}$</p>
+<li><p>Entropia de los predictores.</p>
+<p>E(Y,x) = $\sum{(P(Ci)* E(Ci)}$</p>
 </li>
 </ol>
 
@@ -10904,13 +10911,13 @@ valor p o punto de corte: 0.687287949348002
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Una vez calculadas las entropias se procede a calcular el gain <br></p>
-<p>$Information&nbsp;Gain(Y,x)=E(Y)-E(x)$</p>
+<p>$Information Gain(Y,x)=E(Y)-E(x)$</p>
 <ul>
-    <li>gain(play golf, Outlook)= E(Play Golf) - E(Play Golf,Outlook) =  0.94 - 0.69 =&nbsp;0.25</li>
-    <li>gain(Play Golf,Temp) = 0.94 - 0.73&nbsp;=0.21</li>
-    <li>gain(Play Golf, Humidity) = 0.94 - 0.788&nbsp;=0.15</li>
-    <li>gain(Play Golf, Windy) = 0.94 - 0.89&nbsp;=0.05</li>
-</ul><p>El gain mas alto corresponde al nodo raiz por ende sera Outlook, ahora filtramos la data por cada una de las categorias de outlook y las trabajamos a parte para encontrar el nodo que viene de la misma manera que lo habiamos&nbsp;hecho</p>
+    <li>gain(play golf, Outlook)= E(Play Golf) - E(Play Golf,Outlook) =  0.94 - 0.69 = 0.25</li>
+    <li>gain(Play Golf,Temp) = 0.94 - 0.73 =0.21</li>
+    <li>gain(Play Golf, Humidity) = 0.94 - 0.788 =0.15</li>
+    <li>gain(Play Golf, Windy) = 0.94 - 0.89 =0.05</li>
+</ul><p>El gain mas alto corresponde al nodo raiz por ende sera Outlook, ahora filtramos la data por cada una de las categorias de outlook y las trabajamos a parte para encontrar el nodo que viene de la misma manera que lo habiamos hecho</p>
 
 </div>
 </div>
@@ -11025,7 +11032,7 @@ valor p o punto de corte: 0.687287949348002
 gain(Play Gol outlook=Sunny,temp) =0.97 - 0.14 <br>
 gain(Play Golf outlook=Sunny,Windy) = 0.97 - 0.33 <br>
 <strong>gain(Play Golf outlook=Sunny,Humidity) = 0.97 - 0 = 0.97</strong><br></p>
-<p>Entonces el ganador es&nbsp;Humidity</p>
+<p>Entonces el ganador es Humidity</p>
 
 </div>
 </div>
@@ -11105,9 +11112,9 @@ gain(Play Golf outlook=Sunny,Windy) = 0.97 - 0.33 <br>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Entonces calcular el gain seria:<br></p>
 <ul>
-<li>Gain(Play Golf Outlook =&#8221;Rainy&#8221;, Temp) = 0.97 -&nbsp;0.95</li>
-<li>Gain(Play Golf Outlook =&#8221;Rainy&#8221;, Windy) = 0.97 -&nbsp;0</li>
-</ul><p>Dejamos como nodo&nbsp;Windy</p>
+<li>Gain(Play Golf Outlook ="Rainy", Temp) = 0.97 - 0.95</li>
+<li>Gain(Play Golf Outlook ="Rainy", Windy) = 0.97 - 0</li>
+</ul><p>Dejamos como nodo Windy</p>
 
 </div>
 </div>
@@ -11239,18 +11246,18 @@ gain(Play Golf outlook=Sunny,Windy) = 0.97 - 0.33 <br>
 }
 </script>
 </section>
-                <a href="./arboles-de-decisiones.html#disqus_thread"></a>
+                <a href="https://c3rssei.github.io/Blog/arboles-de-decisiones.html#disqus_thread"></a>
                 <hr class="uk-article-divider">
             </article>
 
 
         <article class="uk-article" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
-                <a href="./descubrir-tu-data-conceptos.html" class="uk-article-title uk-link-muted" itemprop="name">Descubrir tu data&nbsp;(Conceptos)</a>
-                <p class="uk-article-meta"><time datetime="2019-10-30" itemprop="datePublished">octubre 30, 2019</time> • <a href="./category/misc.html">misc</a></p>
+                <a href="https://c3rssei.github.io/Blog/descubrir-tu-data-conceptos.html" class="uk-article-title uk-link-muted" itemprop="name">Descubrir tu data (Conceptos)</a>
+                <p class="uk-article-meta"><time datetime="2019-10-30" itemprop="datePublished">octubre 30, 2019</time> • <a href="https://c3rssei.github.io/Blog/category/misc.html">misc</a></p>
 </p>
-                <p class="uk-article-lead" itemprop="description"> Descripcion Los datos estan construidos por data objects. un data object representa una entidad, en una base de datos medica, los objetos pueden ser pacientes, tambien se conocen como muestras, ejemplos, instancias o objetos. Por ende una fila de una base de datos corresponde a un data object. Referencias: Visualizaciones …</p>
-                <p> Descripcion Los datos estan construidos por data objects. un data object representa una entidad, en una base de datos medica, los objetos pueden ser pacientes, tambien se conocen como muestras, ejemplos, instancias o objetos. Por ende una fila de una base de datos corresponde a un data object. Referencias: Visualizaciones de datos con Python. https://www.ingeniovirtual.com/tipos-de-graficos-y-diagramas-para-la-visualizacion-de-datos/ https://infogram.com/es/pagina/elige-el-grafico-correcto-visualizacion-datos https://bookdown.org/aquintela/EBE/variables-continuas.html https://blog.adrianistan.eu/estadistica-python-pandas-numpy-scipy-parte-i  Atributos Fuente de imagen. Un atributo es un campo de dato, que representa una caracteristica de una muestra, por ejemplo teniendo...</p>
-                <a href="./descubrir-tu-data-conceptos.html">Read More</a>
+                <p class="uk-article-lead" itemprop="description">Descripcion Los datos estan construidos por data objects. un data object representa una entidad, en una base de datos medica, los objetos pueden ser pacientes, tambien se conocen como muestras, ejemplos, instancias o objetos. Por ende una fila de una base de datos corresponde a un data object. Referencias: Visualizaciones …</p>
+                <p>Descripcion Los datos estan construidos por data objects. un data object representa una entidad, en una base de datos medica, los objetos pueden ser pacientes, tambien se conocen como muestras, ejemplos, instancias o objetos. Por ende una fila de una base de datos corresponde a un data object. Referencias: Visualizaciones de datos con Python. https://www.ingeniovirtual.com/tipos-de-graficos-y-diagramas-para-la-visualizacion-de-datos/ https://infogram.com/es/pagina/elige-el-grafico-correcto-visualizacion-datos https://bookdown.org/aquintela/EBE/variables-continuas.html https://blog.adrianistan.eu/estadistica-python-pandas-numpy-scipy-parte-i Atributos Fuente de imagen. Un atributo es un campo de dato, que representa una caracteristica de una muestra, por...</p>
+                <a href="https://c3rssei.github.io/Blog/descubrir-tu-data-conceptos.html">Read More</a>
                 <hr class="uk-article-divider">
         </article>
 
@@ -11269,29 +11276,35 @@ gain(Play Golf outlook=Sunny,Windy) = 0.97 - 0.33 <br>
             <div class="uk-panel uk-panel-box">
                 <ul class="uk-nav uk-nav-side">
                     <li class="uk-nav-header">Categories</li>
-                    <li ><a href="./category/misc.html">misc</a></li>
-                    <li ><a href="./category/posts.html">posts</a></li>
+                    <li ><a href="https://c3rssei.github.io/Blog/category/misc.html">misc</a></li>
+                    <li ><a href="https://c3rssei.github.io/Blog/category/posts.html">posts</a></li>
                     <li class="uk-nav-header">Pages</li>
                     
                     
 
                     <li class="uk-nav-divider"></li>
-                    <li ><a href="./archives.html">Archives</a></li>
+                    <li ><a href="https://c3rssei.github.io/Blog/archives.html">Archives</a></li>
                 </ul>
             </div>
 
             <div class="uk-panel uk-panel-box">
                 <h3 class="uk-panel-title">Receive Updates</h3>
-                <a rel="alternate" type="application/atom+xml" href="./None" class="mg-feed"><i class="uk-icon-rss uk-icon-medium"></i> ATOM</a>
+                <a rel="alternate" type="application/atom+xml" href="https://c3rssei.github.io/Blog/None" class="mg-feed"><i class="uk-icon-rss uk-icon-medium"></i> ATOM</a>
             </div>
             
             <div class="uk-panel uk-panel-box">
                 <h3 class="uk-panel-title">Contacts</h3>
-                <a class="mg-icon-link" href="#">
-                    <i class="uk-icon-You can add links in your config file uk-icon-medium"></i>
+                <a class="mg-icon-link" href="https://twitter.com/luca_chr">
+                    <i class="uk-icon-twitter uk-icon-medium"></i>
                 </a>
-                <a class="mg-icon-link" href="#">
-                    <i class="uk-icon-Another social link uk-icon-medium"></i>
+                <a class="mg-icon-link" href="https://plus.google.com/117284397605208270870">
+                    <i class="uk-icon-google-plus-square uk-icon-medium"></i>
+                </a>
+                <a class="mg-icon-link" href="https://github.com/lucachr">
+                    <i class="uk-icon-github uk-icon-medium"></i>
+                </a>
+                <a class="mg-icon-link" href="mailto:luca92web@gmail.com">
+                    <i class="uk-icon-envelope uk-icon-medium"></i>
                 </a>
             </div>
 
@@ -11307,12 +11320,18 @@ gain(Play Golf outlook=Sunny,Windy) = 0.97 - 0.33 <br>
     <div class="uk-container uk-container-center uk-text-center">
 
         <div class="mg-icons-small uk-subnav uk-visible-small">
-            <li><a rel="alternate" type="application/atom+xml" href="./None" class="uk-icon-button uk-icon-rss"></a></li>
+            <li><a rel="alternate" type="application/atom+xml" href="https://c3rssei.github.io/Blog/None" class="uk-icon-button uk-icon-rss"></a></li>
             <li>
-                <a href="#" class="uk-icon-button uk-icon-You can add links in your config file"></a>
+                <a href="https://twitter.com/luca_chr" class="uk-icon-button uk-icon-twitter"></a>
             </li>
             <li>
-                <a href="#" class="uk-icon-button uk-icon-Another social link"></a>
+                <a href="https://plus.google.com/117284397605208270870" class="uk-icon-button uk-icon-google-plus"></a>
+            </li>
+            <li>
+                <a href="https://github.com/lucachr" class="uk-icon-button uk-icon-github"></a>
+            </li>
+            <li>
+                <a href="mailto:luca92web@gmail.com" class="uk-icon-button uk-icon-envelope"></a>
             </li>
         </div>
 
@@ -11333,13 +11352,13 @@ gain(Play Golf outlook=Sunny,Windy) = 0.97 - 0.33 <br>
 
         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
             <li class="uk-nav-header">Categories</li>
-            <li ><a href="./category/misc.html">misc</a></li>
-            <li ><a href="./category/posts.html">posts</a></li>
+            <li ><a href="https://c3rssei.github.io/Blog/category/misc.html">misc</a></li>
+            <li ><a href="https://c3rssei.github.io/Blog/category/posts.html">posts</a></li>
             <li class="uk-nav-header">Pages</li>        
                     
 
             <li class="uk-nav-divider"></li>
-            <li><a href="./">Archives</a></li>
+            <li><a href="https://c3rssei.github.io/Blog/">Archives</a></li>
         </ul>
     </div>
 </div>
