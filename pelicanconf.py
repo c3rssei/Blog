@@ -33,9 +33,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/luca_chr'),
-    ('google-plus-square', 'https://plus.google.com/117284397605208270870'),
-    ('github', 'https://github.com/lucachr'),
+SOCIAL = (('twitter', 'https://twitter.com/'),
+    ('google-plus-square', ''),
+    ('github', ''),
     ('envelope', 'mailto:mariajoselaylay@gmail.com'),)
 
 DEFAULT_PAGINATION = 5
@@ -47,8 +47,7 @@ TIPUE_SEARCH_SAVE_AS = 'tipue_search.json'
 STATIC_PATHS = ["theme/images",'images']
 PLUGIN_PATHS = ['/home/mariajose/Blog2/pelican-plugins']
 PLUGINS = [
-    'i18n_subsites',
-    'sitemap',
+     'sitemap',
     'liquid_tags.youtube',
     'liquid_tags.notebook',
     'liquid_tags.include_code',
@@ -57,8 +56,8 @@ PLUGINS = [
 "tipue_search",
 ]
 
-FOOTER = 'Copyright © 2019 the Computable AI authors. All rights reserved.'
-I18N_TEMPLATES_LANG = 'en'
+FOOTER = 'Copyright © 2019 Machine learning Astronauta. All rights reserved.'
+
 IPYNB_USE_METACELL = True
 
 MARKUP = ('md', 'ipynb')
