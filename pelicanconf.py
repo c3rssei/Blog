@@ -60,11 +60,11 @@ PLUGINS = [
 FOOTER = 'Copyright © 2019 the Computable AI authors. All rights reserved.'
 I18N_TEMPLATES_LANG = 'en'
 IPYNB_USE_METACELL = True
-IPYNB_SKIP_CSS = True
+
 MARKUP = ('md', 'ipynb')
 
 IGNORE_FILES = [".ipynb_checkpoints"]  
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = False
-DISPLAY_PAGES_ON_MENU=True
+
 DELETE_OUTPUT_DIRECTORY = True
