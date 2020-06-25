@@ -5,7 +5,6 @@ published: true
 ---
 
 # [](#header-1) Descripcion
-
 Los datos estan construidos por data objects. un data object representa una entidad, en una base de datos medica, los objetos pueden ser pacientes, tambien se conocen como muestras, ejemplos, instancias o objetos. Por ende una fila de una base de datos corresponde a un data object.
 
 Referencias:
@@ -53,7 +52,8 @@ Los atributos discretos son aquellos que se pueden contar teniendo en cuenta un 
 
 ## [](#header-2) Medición de la tendencia central
 
-![](https://github.com/c3rssei/c3rssei.github.io/blob/master/assets/mediadastendenciacentral.png?raw=true) 
+[Medidas de tendencia central Grafico]:{filename}/images/medidastendenciacentral.png
+[Medidas de tendencia central Grafico]
 
 [Fuente de imagen](https://nataliaacevedo.com/estadisticasuper-basicaen-data-science/).
 

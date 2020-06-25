@@ -7,7 +7,6 @@ SITENAME = 'Machine Learning Astronauta'
 SITEURL = 'https://c3rssei.github.io/'
 
 PATH = '/home/mariajose/Blog2/content'
-
 DEFAULT_LANG = 'en'
 TIMEZONE = 'UTC'
 
