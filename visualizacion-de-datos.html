@@ -1,44 +1,38 @@
-<meta property="og:title" content="Machine Learning Astronauta" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://c3rssei.github.io/Blog" />
-<meta name="twitter:url" content="https://c3rssei.github.io/Blog" />
-<meta itemprop="name" content="Machine Learning Astronauta">
-<meta itemprop="url" content="https://c3rssei.github.io/Blog">
-<meta property="og:image" content="https://c3rssei.github.io/Blog/static/img/og_logo.jpg" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta name="twitter:image" content="https://c3rssei.github.io/Blog/static/img/og_logo.jpg" />
-<meta itemprop="image" content="https://c3rssei.github.io/Blog/static/img/og_logo.jpg"/>
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Blog"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Blog"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Blog"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/Blog"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Posts</title>
+<title>Visualizacion de datos</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
+<meta name="description" content="Graficos basicos con seaborn y matplotlib utilizando el dataset del titanic">
 <link rel="shortcut icon" href="https://c3rssei.github.io/Blog/favicon.ico" type="image/vnd.microsoft.icon">
 <meta name="author" content="Maria Jose">
 <meta name="copyright" content="Maria Jose">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@" />
 <meta property="og:site_name" content="Machine Learning Astronauta" />
-<meta property="og:title" content="Machine Learning Astronauta" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://c3rssei.github.io/Blog" />
-<meta name="twitter:url" content="https://c3rssei.github.io/Blog" />
-<meta itemprop="name" content="Machine Learning Astronauta" />
-<meta itemprop="url" content="https://c3rssei.github.io/Blog"/>
-<meta property="og:description" content="Bitacora personal sobre data science y machine learning" />
-<meta name="twitter:description" content="Bitacora personal sobre data science y machine learning" />
-<meta itemprop="description" content="Bitacora personal sobre data science y machine learning" />
+
+<meta property="og:title" content="Visualizacion de datos" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://c3rssei.github.io/Blog/visualizacion-de-datos.html" />
+<meta name="twitter:title" content="Visualizacion de datos" />
+<meta name="twitter:url" content="https://c3rssei.github.io/Blog/visualizacion-de-datos.html" />
+<meta itemprop="url" content="https://c3rssei.github.io/Blog/visualizacion-de-datos.html" />
+<meta property="og:description" content="Graficos basicos con seaborn y matplotlib utilizando el dataset del titanic" />
+<meta name="twitter:description" content="Graficos basicos con seaborn y matplotlib utilizando el dataset del titanic" />
+<meta property="og:article:published_time" content="2020-06-20" />
+<meta property="og:article:author" content="mariajose" >
+<meta property="og:article:tag" content="python">
+<meta property="og:article:tag" content="plots">
 <meta property="og:image" content="https://c3rssei.github.io/Blog/static/img/og_logo.jpg" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta name="twitter:image" content="https://c3rssei.github.io/Blog/static/img/og_logo.jpg" />
 <meta itemprop="image" content="https://c3rssei.github.io/Blog/static/img/og_logo.jpg" />
+
 <link href="https://c3rssei.github.io/Blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Machine Learning Astronauta ATOM Feed"/>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -75,15 +69,20 @@
 
     <div class="uk-grid" data-uk-grid-margin>
         
-<div class="uk-width-medium-4-5">
+<div class="mg-container-social uk-width-medium-1-10 uk-hidden-small">
 
 
-            <article class="uk-article" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
-                <a href="https://c3rssei.github.io/Blog/visualizacion-de-datos.html" class="uk-article-title uk-link-muted" itemprop="name">Visualizacion de datos</a>
-                <p class="uk-article-meta"><time datetime="2020-06-20" itemprop="datePublished">junio 20, 2020</time> • <a href="https://c3rssei.github.io/Blog/category/posts.html">posts</a></p>
-</p>
-                <p class="uk-article-lead" itemprop="description">Graficos basicos con seaborn y matplotlib utilizando el dataset del titanic</p>
-                <section itemprop="articleBody"><style type="text/css">/*!
+</div>
+
+<div class="uk-width-medium-7-10">
+
+    <article class="uk-article">
+        <h1 class="uk-heading-large uk-article-title" itemprop="name">Visualizacion de datos</h1>
+        <p class="uk-article-meta"><time datetime="2020-06-20" itemprop="datePublished">junio 20, 2020</time> in <a href="https://c3rssei.github.io/Blog/category/posts.html">posts</a></p>
+
+
+        <p class="uk-article-lead" itemprop="description">Graficos basicos con seaborn y matplotlib utilizando el dataset del titanic</p>
+        <section itemprop="articleBody"><style type="text/css">/*!
 *
 * IPython notebook
 *
@@ -2545,20 +2544,8 @@ Se puede cambiar el contexto en donde se escala la imagen para adaptarla a nuest
 }
 </script>
 </section>
-                <a href="https://c3rssei.github.io/Blog/visualizacion-de-datos.html#disqus_thread"></a>
-                <hr class="uk-article-divider">
-            </article>
-
-
-        <article class="uk-article" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
-                <a href="https://c3rssei.github.io/Blog/arboles-de-decisiones.html" class="uk-article-title uk-link-muted" itemprop="name">Arboles de Decisiones</a>
-                <p class="uk-article-meta"><time datetime="2020-06-12" itemprop="datePublished">junio 12, 2020</time> • <a href="https://c3rssei.github.io/Blog/category/posts.html">posts</a></p>
-</p>
-                <p class="uk-article-lead" itemprop="description">Arboles de decisiones ID3</p>
-                <p>/*! * * IPython notebook * */ /* CSS font colors for translated ANSI escape sequences */ /* The color values are a mix of http://www.xcolors.net/dl/baskerville-ivorylight and http://www.xcolors.net/dl/euphrasia */ .ansi-black-fg { color: #3E424D; } .ansi-black-bg { background-color: #3E424D; } .ansi-black-intense-fg { color: #282C36; } .ansi-black-intense-bg { background-color: #282C36; } .ansi-red-fg { color: #E75C58; } .ansi-red-bg { background-color: #E75C58; } .ansi-red-intense-fg { color: #B22B31; } .ansi-red-intense-bg { background-color: #B22B31; } .ansi-green-fg { color: #00A250; } .ansi-green-bg { background-color: #00A250; } .ansi-green-intense-fg { color: #007427; } .ansi-green-intense-bg { background-color:...</p>
-                <a href="https://c3rssei.github.io/Blog/arboles-de-decisiones.html">Read More</a>
-                <hr class="uk-article-divider">
-        </article>
+        <hr class="uk-article-divider">
+    </article>
 
 
 </div>

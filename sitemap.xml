@@ -5,36 +5,43 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://c3rssei.github.io/Blog/</loc>
-<lastmod>2020-06-25T18:04:20-00:00</lastmod>
+<lastmod>2020-07-12T22:42:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://c3rssei.github.io/Blog/categories.html</loc>
-<lastmod>2020-06-25T18:04:20-00:00</lastmod>
+<lastmod>2020-07-12T22:42:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://c3rssei.github.io/Blog/archives.html</loc>
-<lastmod>2020-06-25T18:04:20-00:00</lastmod>
+<lastmod>2020-07-12T22:42:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://c3rssei.github.io/Blog/search.html</loc>
-<lastmod>2020-06-25T18:04:20-00:00</lastmod>
+<lastmod>2020-07-12T22:42:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://c3rssei.github.io/Blog/tipue_search.html</loc>
-<lastmod>2020-06-25T18:04:20-00:00</lastmod>
+<lastmod>2020-07-12T22:42:17-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://c3rssei.github.io/Blog/visualizacion-de-datos.html</loc>
+<lastmod>2020-06-20T20:00:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -46,29 +53,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://c3rssei.github.io/Blog/descubrir-tu-data-conceptos.html</loc>
-<lastmod>2019-10-30T00:00:00+00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://c3rssei.github.io/Blog/category/misc.html</loc>
-<lastmod>2019-10-30T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://c3rssei.github.io/Blog/category/posts.html</loc>
-<lastmod>2020-06-12T20:00:00+00:00</lastmod>
+<lastmod>2020-06-20T20:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://c3rssei.github.io/Blog/tag/python.html</loc>
-<lastmod>2020-06-12T20:00:00+00:00</lastmod>
+<lastmod>2020-06-20T20:00:00+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://c3rssei.github.io/Blog/tag/plots.html</loc>
+<lastmod>2020-06-20T20:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -81,15 +81,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://c3rssei.github.io/Blog/author/maria-jose.html</loc>
-<lastmod>2019-10-30T00:00:00+00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://c3rssei.github.io/Blog/author/me.html</loc>
-<lastmod>2020-06-12T20:00:00+00:00</lastmod>
+<loc>https://c3rssei.github.io/Blog/author/mariajose.html</loc>
+<lastmod>2020-06-20T20:00:00+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
